@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JsonDiff</class>
+ <widget class="QMainWindow" name="JsonDiff">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="text_edit_left">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>45</y>
+      <width>350</width>
+      <height>500</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="text_edit_right">
+    <property name="geometry">
+     <rect>
+      <x>381</x>
+      <y>45</y>
+      <width>350</width>
+      <height>500</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="path_edit_left">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>18</y>
+      <width>310</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="path_edit_right">
+    <property name="geometry">
+     <rect>
+      <x>381</x>
+      <y>18</y>
+      <width>310</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="file_button_left">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>18</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="file_button_right">
+    <property name="geometry">
+     <rect>
+      <x>699</x>
+      <y>18</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>753</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
